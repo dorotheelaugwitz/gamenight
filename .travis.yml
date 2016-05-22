@@ -1,5 +1,7 @@
 language: ruby
 rvm:
- - 2.3.0
-# uncomment and edit the following line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
+- 2.3.0
+notifications:
+  slack:
+    secure: ijaezygVWS1hDRsNbDtgv28d5q7QadM97/CdZQFaZaGVRBzkxvFSaMNxVueyW7voOVZM1W9EcG84tBd6D3FUAR56QvztIjFlYFC2nmS3I0qhYrpOePdiNCMsLW5CrHf3utdC51H4uQ4GVAud5Pz7P/xgAsrSpBnfb8hedEMEtOLXDFCFIB9PiNjEjPMcx+HBkP1BpURJn5zzpFPEU4J97ACBCmXeVvc57Xuh/sqXJPwwJODKQKsMQY2Lvl2SORKe1HHceXog+FgeztBHrpB7IOTnsc2mHjx7wgVd9k977N2p3h9is0Amkdj9Mj6wVxt6hX1eCTpqHvmZBWM197mI2VJKr7Wdlghd8p/NQ93DvzFbQDHKPz2t19HkYmjQ5Adn2QjzFvOArQUW8G0aluRI2kEM2jWykEDGjfp2UaBgBeJ6Vj9BdBLSWjKkDWi4VcefXTvBCXxC5AJkmkDt5cmGR5zNImn/v81IgWaHis+SZKkoM9+cY0rJjYTkTGC1ify2Otg2tm4qS8LPKaxt3EgJT5+AlY+JsvmNcCOQ74E1Hsk48Fm9ZDRpMlPaTLxYEddSY0gt6rhtSNlT/6mGp9noFyDppqQ2ddD6S5kPfxgDm+DFjfpd8cRWDEuEtReaXGWQvDqpcpgnhLAgmigOhecn+j5v67hNG0IEjbi70WaZYZY=
+  emails: false
